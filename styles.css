@@ -315,18 +315,19 @@ img {
 }
 
 /* Bible Verse */
-.blockquote.bg-blue-light {
-  background-color: var(--blue-light) !important;
-  border-left: 4px solid var(--gold-primary);
+.blockquote.border-gold {
+  background-color: transparent !important;
+  border: 2px solid var(--gold-primary);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-.blockquote.bg-blue-light p,
-.blockquote.bg-blue-light .blockquote-footer {
+.blockquote.border-gold p,
+.blockquote.border-gold .blockquote-footer {
   color: var(--text-dark) !important;
 }
 
-.blockquote.bg-blue-light .blockquote-footer::before {
+.blockquote.border-gold .blockquote-footer::before {
   content: "— ";
 }
 
@@ -350,7 +351,7 @@ img {
 
 /* Footer */
 footer {
-  background: linear-gradient(135deg, var(--blue-primary) 0%, #002244 100%);
+  background: linear-gradient(135deg, var(--blue-primary) 0%, #e6de7c 100%);
 }
 
 footer a {
