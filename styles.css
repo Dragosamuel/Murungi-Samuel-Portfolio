@@ -150,7 +150,7 @@ img {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(rgba(0, 51, 102, 0.85), rgba(0, 51, 102, 0.9)), url('profile.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 51, 102, 0.85), rgba(0, 51, 102, 0.9)), url('img/profile.jpg') center/cover no-repeat;
   color: var(--white);
   min-height: 90vh;
   display: flex;

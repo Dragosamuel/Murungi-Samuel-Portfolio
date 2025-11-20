@@ -27,6 +27,12 @@ window.addEventListener('scroll', function() {
 
 // Add scrolled class for navbar styling
 document.addEventListener('DOMContentLoaded', function() {
+    // Set current year in footer
+    const currentYearElement = document.getElementById('currentYear');
+    if (currentYearElement) {
+        currentYearElement.textContent = new Date().getFullYear();
+    }
+    
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
         navbar.classList.add('scrolled');
