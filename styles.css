@@ -150,7 +150,7 @@ img {
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(rgba(0, 51, 102, 0.85), rgba(0, 51, 102, 0.9)), url('img/profile.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 51, 102, 0.85), rgba(0, 51, 102, 0.9)), url('img/profile1.jpg') center/cover no-repeat;
   color: var(--white);
   min-height: 90vh;
   display: flex;
@@ -168,7 +168,7 @@ img {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('profile.jpg') center/cover no-repeat;
+  background: url('img/profile1.jpg') center/cover no-repeat;
   filter: blur(5px);
   z-index: -1;
   background-size: cover;
@@ -312,6 +312,22 @@ img {
 
 .testimonial-card {
   border-left: 4px solid var(--gold-primary);
+}
+
+/* Bible Verse */
+.blockquote.bg-blue-light {
+  background-color: var(--blue-light) !important;
+  border-left: 4px solid var(--gold-primary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blockquote.bg-blue-light p,
+.blockquote.bg-blue-light .blockquote-footer {
+  color: var(--text-dark) !important;
+}
+
+.blockquote.bg-blue-light .blockquote-footer::before {
+  content: "— ";
 }
 
 /* Contact Form */
